@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.foto{
+    position: absolute;
+width: 191.3px;
+height: 191.3px;
+left: 134.6px;
+top: 89.5px;
+z-index: 20;
+}
+.fondo_foto{
+    position: relative;
+width: 203.3px;
+height: 203.3px;
+left: 128.6px;
+top: 83.3px;
+z-index: 10;
+}
+.texto{
+    position: absolute;
+width: 438px;
+height: 365.3px;
+left: 23px;
+top: 185px;
+display: flex;
+justify-content: center;
+
+background: #fff;
+border-radius: 15px;
+}
+#nombre{
+position: relative;
+width: 328px;
+height: 62px;
+left: 70px;
+top: 108.6px;
+
+font-family: 'PT Sans Caption';
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 62px;
+
+color: #000000;
+}
+#puesto{
+    position: absolute;
+    width: 224px;
+    height: 47px;
+    left: 138px;
+    top: 158px;
+    
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 47px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+#descripcion{
+    position: absolute;
+width: 426px;
+height: 93px;
+left: 24px;
+top: 198px;
+
+font-family: 'PT Sans Caption';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+
+}
